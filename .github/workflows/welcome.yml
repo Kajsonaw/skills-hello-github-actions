@@ -1,0 +1,8 @@
+name: Post welcome comment
+on:
+  push: 
+    branches: main
+  pull_request:
+    types: [opened,merged, closed]
+permissions:
+  pull-requests: write
